@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 post_x_direct.py)",
+      "Bash(python3 -c \":*)",
+      "Bash(supabase --version)",
+      "Bash(npx supabase:*)",
+      "Bash(SUPABASE_ACCESS_TOKEN=sbp_a129c0f8a54b454aeefc08d3742ea82addb4699f npx supabase functions deploy post-x --project-ref hcwqslyqhssnyoncjbqp)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "WebFetch(domain:developers.buffer.com)",
+      "WebFetch(domain:buffer.com)",
+      "Bash(npx vite:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(supabase functions:*)",
+      "Bash(supabase db:*)",
+      "Bash(npm run:*)",
+      "Bash(ls -la .env*)"
+    ],
+    "additionalDirectories": [
+      "/Users/ayang/.claude/projects/-Users-ayang-Antigravity-SNS-----"
+    ]
+  }
+}
